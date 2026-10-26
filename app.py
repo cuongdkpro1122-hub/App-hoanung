@@ -43,7 +43,7 @@ if st.button("Gửi yêu cầu"):
                 st.write(interaction.steps[-1])
                 
             except Exception as e:
-                st.error(f"Có lỗi xảy ra: {e}")import os
+                st.error(f"Có lỗi xảy ra: {e}")
 import streamlit as st
 from google import genai
 
